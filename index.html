@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Samrat Investment Demo</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand font-weight-bold font-italic text-monospace "><h2>Samrat</h2><span class="text-primary">Financial Banking</span></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Global Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Financial Services</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Piggy Valley</a>
+                <a class="dropdown-item" href="#">SamVan Lifetime Plan</a>
+                <a class="dropdown-item" href="#">Student Growth Plan</a>
+                <a class="dropdown-item" href="#">Global Growth Plan</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Pay Here</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">Contact</a>
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <form>
+                            <div class="form-group mt-4">
+                              <label class="pl-4" for="name">Name</label>
+                              <input type="text" placeholder="Enter your Name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label class="pl-4" for="email">Email</label>
+                              <input type="email" placeholder="Enter your Mail id" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label class="pl-4" for="message">Message</label>
+                              <textarea class="form-control"></textarea>
+                            </div>
+                          </form>
+                          <div class="modal-footer">
+                              <button class="btn btn-primary btn-block">Submit</button>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase mb-0">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Investment For Life</h1>
+              <p class="lead font-weight-bold">You are about to start your journey of most profitable savings ever, with essence of human experience and innovation.</p>
+              <a href="#" class="btn btn-danger btn-lg">Open Account Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3 text-monospace text-light">Financial Planning</h1>
+              <p class="lead font-weight-bold font-italic">Customize your money.</br><h2 class="text-white-50">Invest|Plant|Profit</h2></p>
+              <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3 text-monospace text-light">Live Value 27%</h1>
+              <p class="lead">According to your plan, purpose and requirements; - customize your money.</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!--HOME ICON SECTION  -->
+  <section id="home-icons" class="py-5 mb-2">
+      <div class="row pr-4 mr-4">
+        <div class="col-md-2 mb-4 bg-light">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Insight</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Investment Management</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Consultancy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-success" href="#">Funding</a>
+              </li>
+              
+            </ul>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <i class="fas fa-piggy-bank fa-3x mb-2"></i>
+          <h3>Personal Saving</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <i class="fas fa-user-friends fa-3x mb-2"></i>
+          <h3>Final Consultancy</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <i class="fas fa-coins fa-3x mb-2"></i>
+          <h3>Funding</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-3 mb-4 text-center">
+          <i class="fas fa-lock-open fa-3x mb-2"></i>
+          <h3>Freedom Venture</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <i class="fas fa-bell fa-3x mb-2"></i>
+          <h3>Innovation</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+        <div class="col-md-3 mb-4 text-center">
+          <i class="fas fa-chart-line fa-3x mb-2"></i>
+          <h3>Sustainability</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- HOME HEADING SECTION -->
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1>Are You Ready To Get Started?</h1>
+            <p class="d-none d-md-block"><span class="text-primary font-italic font-weight-bold"> World we define together</span>
+                <span class="font-weight-bold"><span>We evolved to <span class="text-primary">transform</span> the way your economy works for you, to a <span class="text-primary">great experience</span>. What you have earned; Serving you the <span class="text-primary">Value & Profit.</span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- INFO SECTION -->
+  <section id="info" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3 class="font-italic">Secure Your Future </br>with <span class="bold text-primary">SAMRAT INVESTMENT</span></h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet blanditiis incidunt iusto corrupti illum
+            cum laudantium ex sequi amet.</p>
+          <a href="about.html" class="btn btn-outline-danger btn-lg">Learn More</a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/Future.jpg" alt="" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO PLAY -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/P5ca_dKPcH8" data-toggle="modal" data-target="#videoModal">
+              <i class="fas fa-play fa-3x"></i>
+            </a>
+            <h1>Click on Play to See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <div>
+        <h1 class="text-center text-monospace decoration">CHECK OUT OUR SERVICES</h1>
+        <p class="text-center text-danger font-weight-bold font-italic">Not mere a banker, something beyond</p>
+        <div class="row justify-content-md-center">
+            <div class="col-md-3 mr-1">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Financial Service</h5>
+                  <p class="card-text">
+                    <ul>
+                      <li>
+                          Customise your financial scheme
+                          
+                      </li>
+                      <li>
+                          
+                          Strengthening your 'Personal savings'
+                          
+                      </li>
+                      <li>
+                          Minimum assured return rate 8%- 23% to 'Live value'
+                      </li>
+                    </ul>
+                  </p>
+                  <a href="#" class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-1">Read More</a>
+                  <div class="collapse mb-5 font-italic" id="collapse-btn-1">
+                      Financial service is designed to get you higher profit on saving for your financial strength. You can customize your financial plan, let you experience financial freedom. Caring your choice and securing your wealth. Positive loss zone experience. Most profitable personal saving. Advanced, analyzed & valuable investing.
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mr-1">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title font-weight-bold">Funding</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>
+                                Infinite opportunity for startups
+                                
+                            </li>
+                            <li>
+                                
+                                Problem solving idea with simplifying life
+                                
+                            </li>
+                            <li>
+                                Excellent business & service arena
+                            </li>
+                          </ul>
+                    </p>
+                    <a href="#" class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-2">Read More</a>
+                    <div class="collapse mb-5 font-italic" id="collapse-btn-2">
+                        Bring your ideas and start-up to a new level of global platform and customer focused.
+                        Build your dreams by innovating the way of business and service quality.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mr-1">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Freedom Venture</h5>
+                      <p class="card-text">
+                          <ul>
+                              <li>
+                                  Upgrading investor & service connectivity
+                                  
+                              </li>
+                              <li>
+                                  
+                                  Bringing quality experience to people 
+                                  
+                              </li>
+                              <li>
+                                  Service provider & investor profitability
+                              </li>
+                            </ul>
+                      </p>
+                      <a href="#" class="btn btn-primary d-block mb-4" data-toggle="collapse" data-target="#collapse-btn-3">Read More</a>
+                      <div class="collapse mb-5 font-italic" id="collapse-btn-3">
+                          Globally collaboration of moderate investor & small business-brand/ service provider for their mutual growth. Offers quality experience in products and service to people in all locality. Let life be full of moments and livings.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-3 mt-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">Bussiness Services</h5>
+                      <p class="card-text">
+                          <ul>
+                              <li>
+                                  Advanced Deep Insight
+                              <li>
+                                  
+                                 Bussiness Inovation
+                                  
+                              </li>
+                              <li>
+                                  Technology & AI
+                              </li>
+                              <li>
+                                Operation And management
+                              </li>
+                              <li>
+                                Risk Management
+                              </li>
+                            </ul>
+                      </p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                  </div>
+                </div>
+            <div class="col-md-3 mt-2">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title font-weight-bold">Individual Services</h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>
+                              Wealth Management
+                          <li>
+                              
+                             Financial Planning
+                              
+                          </li>
+                          <li>
+                              Tax Reduction
+                          </li>
+                          <li>
+                            Economic Growth
+                          </li>
+                        </ul>
+                  </p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+  <!-- NEWSLETTER -->
+  <section class="text-center p-5 bg-dark text-white">
+    <div class="container">
+          <h1>Recent StartUp</h1>
+          <div class="row mb-0">
+              <div class="col-sm-4 mt-4">
+                  <a href="img/Inspyr.png" data-toggle="lightbox" data-height="565" data-width="565">
+                  <img src="img/Inspyr.png" class="img-fluid h-75 rounded-circle">
+                  </a>
+                </div>
+            <div class="col-sm-4 mt-2 mb-4">
+              <a href="img/loveoon.jpg" data-toggle="lightbox" data-height="565" data-width="565">
+              <img src="img/loveoon.jpg" class="img-fluid w-75 rounded">
+              </a>
+            </div>
+              <div class="col-sm-4 mt-4">
+                  <a href="img/Antriksh.png" data-toggle="lightbox" data-height="565" data-width="565">
+                  <img src="img/Antriksh.png" class="img-fluid h-75 rounded-circle">
+                  </a>
+                </div>
+          </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> AnmolChauhan</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    // Video Play
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+  </script>
+</body>
+
+</html>
